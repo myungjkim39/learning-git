@@ -1,0 +1,83 @@
+header {
+    display: flex;
+    justify-content: center;
+    margin: 50px 100px;
+    padding: 60px;
+    text-align: center;
+    background: #D3A06C;
+    color: white;
+}
+
+.home {
+    display: flex; 
+    align-items: center; 
+    width: 100%; 
+    height: 100%;
+    }
+
+.form {
+    display: flex;
+    justify-content: center;
+    margin: 50px 100px;
+    padding: 10px;
+    text-align: center;
+    background: #D3A06C;
+    color: white;
+}
+
+#profile {
+    width: 35%;
+    margin: 50px 100px;
+}
+
+#pic {
+    width: 65%;
+    height: 300px;
+    margin: 0px 100px;
+}
+
+body {
+    background-image: url("MJ.jpg");
+    linear-gradient 
+   }
+
+.button {
+    margin: 2px 5px;
+    padding: 8px 15px;
+    text-align: center;
+}
+
+.button:hover { 
+    background-color: #396ee1; 
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    margin: 30px 0px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    text-decoration: underline; 
+    cursor: auto;
+}
+
+a:link:active, a:visited:active {
+    color:blue
+}
+
+input { 
+    width: 40%;
+}
+
+label {
+    font-family: Tahoma, sans-serif;
+}
